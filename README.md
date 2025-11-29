@@ -1,7 +1,7 @@
 # OpenGL-Polygon
 繪製多邊形功能,並且完成基本要求功能,在最後要將最後頂點與最初頂點連線
-
-2.(作業環境)
+PolygonEdit透視投影 (Perspective)設置為 3D 視圖，但只繪製 2D 點線。它使用 glFrustum() 創建一個透視截錐體，然後使用 glTranslatef(0.0, 0.0, -8.0) 將物體移到視景體內。
+GeneratePolygons正交投影 (Ortho)使用 gluOrtho2D(-10, 10, -10, 10) 創建一個簡單的 2D 座標系統。這使得座標 $(x, y)$ 直接對應到螢幕上的位置。
 作業環境:win11 64bit
 編譯器:Visual Studio 2022
 3.(作業指定功能)
